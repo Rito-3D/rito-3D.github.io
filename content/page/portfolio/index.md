@@ -64,6 +64,8 @@ menu:
 
 ![](b1.png)
 
+{{< youtube cyAzkIXI__o >}}
+
 
 ### VRM to VRChat Avatar
 
