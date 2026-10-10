@@ -23,6 +23,8 @@ SortBy              = "default"
     subtitle = "@Rito_3D"
     avatar   = "img/avatar.png"
     description = "3D Technical Artist specializing in Warudo and Vtubing."
+    contactEmail = "foo@gmail.com"
+    contactUsername = "ohnyoo.scbp"
 
 [avatar]
     width = 2048
@@ -65,10 +67,11 @@ SortBy              = "default"
 
 [prices]
     scene = 200
-    environment = 350
+    environment = 400
     prop = 50
     character = 50
     vrchat = 50
     shorts = 20
-    videos = 80
+    videos = 100
     modularavatar = 80
+    consultations = 0

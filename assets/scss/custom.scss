@@ -356,3 +356,12 @@ article.main-article .article-license {
 .article-list--compact a {
     background-color: #111;
 }
+
+p.no-text {
+    margin: 0px;
+}
+
+p.no-text div.gallery {
+    margin-top: 0px;
+    margin-bottom: -5px;
+}

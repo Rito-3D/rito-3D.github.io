@@ -93,6 +93,6 @@ I cannot guarantee that Warudo will always be compatible or functional with the 
 
 I cannot guarantee that the character will be completely free of bugs, but I will do my best to fix any bugs you encounter.
 
-Please contact me on X to request a quote or if you encounter any issues.
+Please contact me via email to request a quote or if you encounter any issues.
 
 Refunds are generally not available once production has started or finished.

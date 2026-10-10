@@ -52,7 +52,23 @@
 
     <header>
  <div class="site-meta">
-    <h2 class="site-description">Contact me on X/Twitter!</h2>
+    {{ if .Site.Params.sidebar.contactUsername }}
+        {{ $email := .Site.Params.sidebar.contactEmail }}
+        {{ $parts := split $email "@" }}
+        {{ $user := .Site.Params.sidebar.contactusername }}
+        {{ $domain := index $parts 1 }}
+        <h2 class="site-description">Contact: <a href="#" class="secure-email" data-u="{{ $user }}" data-d="{{ $domain }}">Loading email...</a></h2>
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.secure-email').forEach(function(el) {
+               var u = el.getAttribute('data-u');
+               var d = el.getAttribute('data-d');
+               el.href = 'mailto:' + u + '@' + d;
+               el.textContent = u + '@' + d;
+             });
+    });
+  </script>
+    {{ end }}
     <h2 class="site-description">{{ .Site.Params.sidebar.description }}</h2>
 </div>
     </header>

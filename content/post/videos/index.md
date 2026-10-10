@@ -14,7 +14,7 @@ price_type: "prices.videos"
 
 ## Description
 
-Composite and render a long-form video suitable for posting on YouTube, streaming, or holding concerts
+Composite and render a long-form video suitable for posting on YouTube, streaming, or holding concerts.
 
 {{< youtube 0TZYC2lVECg >}}
 
@@ -60,6 +60,6 @@ You may also transfer the video to whomever you like.
 
 You are expected to respect the ToS of any assets you are using.
 
-Please contact me on X to request a quote or if you encounter any issues.
+Please contact me via email to request a quote or if you encounter any issues.
 
 Refunds are generally not available once production has started or finished.
