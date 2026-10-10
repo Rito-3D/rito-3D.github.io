@@ -18,23 +18,30 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = "🦝"
+    handle = "@Rito_3D"
+    subtitle = "@Rito_3D"
     avatar   = "img/avatar.png"
+    description = "3D Technical Artist specializing in Warudo and Vtubing."
+
+[avatar]
+    width = 2048
 
 [article]
     headingAnchor = false
     math          = false
-    readingTime   = true
+    readingTime   = false
 
+    [article.list]
+		showTags = false
+        showCategories = false
     [article.license]
-        enabled = true
+        enabled = false
         default = "Licensed under CC BY-NC-SA 4.0"
 
 [widgets]
     homepage = [
         { type = "search" },
-        { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
         { type = "tag-cloud", params = { limit = 10 } },
     ]
@@ -45,13 +52,23 @@ SortBy              = "default"
     card = "summary_large_image"
 
 [colorScheme]
-    toggle  = true
-    default = "auto"
+    toggle  = false
+    default = "dark"
 
 ## Comments
 [comments]
-    enabled  = true
+    enabled  = false
     provider = "disqus"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
+
+[prices]
+    scene = 200
+    environment = 350
+    prop = 50
+    character = 50
+    vrchat = 50
+    shorts = 20
+    videos = 80
+    modularavatar = 80

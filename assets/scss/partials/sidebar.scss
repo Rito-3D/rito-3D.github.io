@@ -1,12 +1,3 @@
-/*
-    You can add your own custom styles here.
-*/
-
-
-div.inline-meta > svg,time {
-  display: none;
-}
-
 .sidebar {
     &.sticky {
         @include respond(md) {
@@ -20,7 +11,6 @@ div.inline-meta > svg,time {
     flex-direction: column;
     flex-shrink: 0;
     align-self: stretch;
-    padding-left: inherit;
 
     @include respond(md) {
         gap: var(--sidebar-element-separation);
@@ -161,36 +151,18 @@ div.inline-meta > svg,time {
     .site-name {
         color: var(--accent-color);
         margin: 0;
-        font-size: 3.6rem;
-        font-family: Satoshi, Noto Sans JP, Noto Sans KR, Noto Sans TC, Arial, Tahoma, sans-serif;
-        letter-spacing: 0.16px;
-        line-height: 4.7rem;
-        font-weight: 840;
+        font-size: 1.6rem;
 
         @include respond(2xl) {
-            font-size: 3.8rem;
+            font-size: 1.8rem;
         }
     }
 
-    .site-handle {
-        color: rgba(255,255,255,0.35);
-        font-weight: normal;
-        margin: 0;
-        font-size: 1.4rem;
-        letter-spacing: 0.14px;
-        line-height: 1.8rem;
-
-        @include respond(2xl) {
-            font-size: 1.6rem;
-        }
-    }
     .site-description {
-        color: rgba(255,255,255,1);
+        color: var(--body-text-color);
         font-weight: normal;
         margin: 0;
         font-size: 1.4rem;
-        letter-spacing: 0.14px;
-        line-height: 1.8rem;
 
         @include respond(2xl) {
             font-size: 1.6rem;
@@ -253,106 +225,4 @@ div.inline-meta > svg,time {
             background-color: var(--card-background);
         }
     }
-}
-
-h3:has(+ ul) {
-  margin-bottom: 4px !important;
-}
-ul {
-  margin-top: 0px;
-}
-
-.test > h4 {
-
-}
-
-.main-article > .article_header > .article-details > .article-title-wrapper > .article-title > a {
-
-}
-.article-details {
-    padding-bottom: 16px;
-    padding-top: 16px;
-    row-gap: 0px;
-}
-
-h4.article-subtitle {
-    display: none;
-}
-.article-license {
-    display: none;
-}
-
-.article-price {
-    color: rgba(255,255,255,0.6);
-    font-size: 17px;
-    font-weight: 440;
-    line-height: 24px;
-    margin-bottom: 4px;
-    margin-top: 0px;
-    display: block;
-}
-
-article.main-article .article-title {
-    font-size: 3.2rem;
-    font-weight: 840;
-    letter-spacing: 0.16px;
-    line-height: 42px;
-    margin-bottom: 0px;
-}
-
-article.main-article .article-subtitle {
-    color: rgba(255,255,255,0.35) !important;
-    font-size: 17px !important;
-    font-weight: 440 !important;
-    line-height: 24px !important;
-    margin-bottom: 0px !important;
-    display: block;
-}
-
-article.main-article .article-price {
-    color: rgba(255,255,255,0.6) !important;
-    font-size: 22px !important;
-    font-weight: 440 !important;
-    line-height: 26px !important;
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
-}
-
-article.main-article .article-price > b {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 440;
-    line-height: 26px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-article.main-article .article-license {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 640;
-    line-height: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    display: block;
-}
-
-.article-list .article-header {
-    background-color: #111;
-}
-
-.archives .widget-icon {
-    display: none;
-}
-.archives .widget-title {
-    display: none;
-}
-
-.widget-title {
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
-.article-list--compact a {
-    background-color: #111;
 }
