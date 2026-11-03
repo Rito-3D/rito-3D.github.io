@@ -17,7 +17,7 @@ price_type: "prices.modularavatar"
 
 ## Description
 
-Modify your existing VRM model by creating a hybrid model with a base model that supports Modular Avatar. This allows your model to support various Booth outfits that support Modular Avatar (for Shinano). The outfitted model is provided as a Warudo Character Mod only.
+Modify your existing VRM model by creating a hybrid model with a base model that supports Modular Avatar. This service replaces the body of your model with the Shinano base body. This allows your model to support various Booth outfits that support Modular Avatar for the Shinano base body. The outfitted model is provided as a Warudo Character Mod only.
 
 ![Shinano](1.png) ![Meimi Majokko](2.png)
 
@@ -28,6 +28,8 @@ Modify your existing VRM model by creating a hybrid model with a base model that
 * Adjust positions of bones to fit model, e.g. hat positions
 
 ### Important
+* Your model's body will be replaced with a different body for maximum compatibility with outfits
+  * If you want your own body to be used, you will need to find someone who does outfit fitting
 * The modular avatar prefab cannot easily be transferred and requires a Unity editor with modified packages, so it will not be provided to the user
 * Please note that changes to the model only apply to the final deliverable and will only work in Warudo
 
