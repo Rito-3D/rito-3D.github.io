@@ -16,6 +16,7 @@ price_type: "prices.videos"
 
 Composite and render a long-form video suitable for posting on YouTube, streaming, or holding concerts.
 
+{{< youtube 2EfrOFFh4Hg >}}
 {{< youtube 0TZYC2lVECg >}}
 
 ### Includes
